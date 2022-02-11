@@ -132,6 +132,8 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.13.1-x86_64-linux)
       racc (~> 1.4)
+    pagy (5.10.1)
+      activesupport
     propshaft (0.6.1)
       actionpack (>= 7.0.0)
       activesupport (>= 7.0.0)
@@ -217,6 +219,7 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
+  pagy (~> 5.10)
   propshaft
   puma (~> 5.0)
   rails (~> 7.0.1)
